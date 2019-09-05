@@ -7,8 +7,11 @@ const PORT = 8080;
 
 // App
 const app = express();
+
+var name = "Microsoft"
+
 app.get('/', (req, res) => {
-  res.send('Hello HK Summit\n');
+  res.send('<h1>Hello ' + name + '</h1>');
 });
 
 app.listen(PORT);

@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: warrenwwcdockerazure 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: warrenwwcdockerazure 
+    spec:
+      containers:
+        - name: warrenwwcdockerazure 
+          image: wawongacr.azurecr.io/warrenwwcdockerazure 
+          ports:
+          - containerPort: 8080

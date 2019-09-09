@@ -9,7 +9,7 @@ const PORT = 8080;
 const app = express();
 
 //Input display name here
-var name = "Microsoft Hong Kong Summit 2019"
+var name = "World"
 
 app.get('/', (req, res) => {
   res.send('<h1>Hello ' + name + '</h1>');

@@ -8,9 +8,13 @@ const PORT = 8080;
 // App
 const app = express();
 
+function f() {
+  x = 23;
+  let x;
+}
+
 //Input display name here
 var name = "AKS_2019"
-// var abc = null
 
 app.get('/', (req, res) => {
   res.send('<h1>Hello ' + name + '</h1>');

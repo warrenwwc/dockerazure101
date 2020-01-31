@@ -14,7 +14,7 @@ function f() {
 }
 
 //Input display name here
-var name = "AKS_2019"
+var name = "World"
 
 app.get('/', (req, res) => {
   res.send('<h1>Hello ' + name + '</h1>');

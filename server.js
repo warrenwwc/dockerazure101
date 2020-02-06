@@ -8,7 +8,7 @@ const PORT = 8080;
 // App
 const app = express();
 
-var name = "World"
+var name = "GitHub"
 
 app.get('/', (req, res) => {
   res.send('<h1>Hello ' + name + '</h1>');
